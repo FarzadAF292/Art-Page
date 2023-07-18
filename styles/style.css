@@ -57,4 +57,38 @@ body {
   font-weight: 400;
   color: #808080;
   padding-top: 24px;
+}
+.heroPage .poemers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 116px;
+}
+.heroPage .poemers img {
+  width: 100%;
+  height: 514px;
+}
+.heroPage .rows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+.heroPage .rows .row {
+  border: 1px solid #dcdcdc;
+  border-radius: 50%;
+  padding: 10px;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.heroPage .rows .row:hover {
+  background-color: #cccccc;
+}
+.heroPage .rows .row img {
+  width: 24px;
+  height: 24px;
 }/*# sourceMappingURL=style.css.map */
