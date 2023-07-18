@@ -1,3 +1,41 @@
-body div {
-  color: aqua;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  margin: auto;
+  width: 1120px;
+}
+.navbar nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.navbar nav img {
+  width: 26.87px;
+}
+.navbar nav .navList ul {
+  display: flex;
+  align-items: center;
+  gap: 59px;
+  list-style-type: none;
+}
+.navbar nav .navList ul li {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.navbar nav .navList ul li:hover {
+  border-bottom: 1px solid #000000;
+}
+.navbar nav .navList ul li a {
+  text-decoration: none;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
