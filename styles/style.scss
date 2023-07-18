@@ -1,6 +1,7 @@
 // colors
 $black: #000000;
 $gray: #808080;
+$gray-light: #cccccc;
 // font sizes
 $text-sm: 16px;
 // image sizes
@@ -53,5 +54,25 @@ body {
         }
       }
     }
+  }
+}
+
+.heroPage {
+  padding: 108px 0 140px 0;
+  width: $container;
+  margin: auto;
+  text-align: center;
+  border-bottom: 0.5px solid $gray-light;
+  h1 {
+    font-size: 60px;
+    font-weight: 400;
+    color: $black;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: 400;
+    color: $gray;
+    padding-top: 24px;
   }
 }
