@@ -114,3 +114,24 @@ body {
     }
   }
 }
+
+.summary {
+  width: $container;
+  margin: auto;
+  display: grid;
+  grid-column: 12;
+  padding-bottom: 200px;
+  .leftSummary {
+    display: grid;
+    grid-column: 5;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+
+  .rightSummary {
+    display: grid;
+    grid-column: 7;
+    grid-column-start: 6;
+    grid-column-end: 12;
+  }
+}

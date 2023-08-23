@@ -91,4 +91,24 @@ body {
 .heroPage .rows .row img {
   width: 24px;
   height: 24px;
+}
+
+.summary {
+  width: 1120px;
+  margin: auto;
+  display: grid;
+  grid-column: 12;
+  padding-bottom: 200px;
+}
+.summary .leftSummary {
+  display: grid;
+  grid-column: 5;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.summary .rightSummary {
+  display: grid;
+  grid-column: 7;
+  grid-column-start: 6;
+  grid-column-end: 12;
 }/*# sourceMappingURL=style.css.map */
